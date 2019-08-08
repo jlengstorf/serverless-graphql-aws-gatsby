@@ -12,9 +12,9 @@ module.exports = {
     {
       resolve: "gatsby-source-graphql",
       options: {
-        url: process.env.AWS_GRAPHQL_ENDPOINT,
+        url: process.env.GRAPHQL_ENDPOINT,
         headers: {
-          "x-api-key": process.env.AWS_APPSYNC_API_KEY,
+          "x-api-key": process.env.APPSYNC_API_KEY,
         },
         typeName: "Conference",
         fieldName: "conferences",
