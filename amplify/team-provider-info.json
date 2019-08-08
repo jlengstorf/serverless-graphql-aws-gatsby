@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "graphqlawsgatsby-dev-20190808091428-authRole",
+            "UnauthRoleArn": "arn:aws:iam::431582850368:role/graphqlawsgatsby-dev-20190808091428-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::431582850368:role/graphqlawsgatsby-dev-20190808091428-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "graphqlawsgatsby-dev-20190808091428-deployment",
+            "UnauthRoleName": "graphqlawsgatsby-dev-20190808091428-unauthRole",
+            "StackName": "graphqlawsgatsby-dev-20190808091428",
+            "StackId": "arn:aws:cloudformation:us-west-2:431582850368:stack/graphqlawsgatsby-dev-20190808091428/98d04f00-b9f7-11e9-8cd8-0a152f9ae918"
+        }
+    }
+}

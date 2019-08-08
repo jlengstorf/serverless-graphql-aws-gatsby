@@ -1,0 +1,12 @@
+type Conference @model {
+  id: ID!
+  name: String!
+  description: String
+  location: Location
+  weather: String @function(name: "weather-${env}")
+}
+
+type Location {
+  lat: Float!
+  lon: Float!
+}
